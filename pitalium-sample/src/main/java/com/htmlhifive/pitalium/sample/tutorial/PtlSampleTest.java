@@ -22,7 +22,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.htmlhifive.pitalium.core.PtlTestBase;
+import com.htmlhifive.pitalium.core.TelemetricTestBase;
 import com.htmlhifive.pitalium.core.model.DomSelector;
 import com.htmlhifive.pitalium.core.model.ScreenshotArgument;
 import com.htmlhifive.pitalium.core.model.SelectorType;
@@ -32,7 +32,7 @@ import com.htmlhifive.pitalium.core.selenium.PtlWebElement;
 /**
  * @author msakai
  */
-public class PtlSampleTest extends PtlTestBase {
+public class PtlSampleTest extends TelemetricTestBase {
 
 	private static final DomSelector GOTOTOP_DOM_ELEMENT = new DomSelector(SelectorType.CLASS_NAME, "gototop");
 
