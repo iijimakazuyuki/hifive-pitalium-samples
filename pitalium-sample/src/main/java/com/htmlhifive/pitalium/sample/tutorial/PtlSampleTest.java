@@ -38,6 +38,7 @@ public class PtlSampleTest extends TelemetricTestBase {
 
 	@Test
 	public void testCaptureTop() throws Exception {
+		measure.setReportTemplateName("mytemplate");
 		driver.get("");
 
 		ScreenshotArgument arg = ScreenshotArgument.builder("sampleCapture")
